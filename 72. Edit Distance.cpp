@@ -1,12 +1,10 @@
-﻿//Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
+﻿//Given two words word1 and word2, find the minimum number of steps required to convert word1 to word2. (each operation is counted as 1 step.)
 //
-//click to show follow up.
+//You have the following 3 operations permitted on a word :
 //
-//Follow up :
-//Did you use extra space ?
-//A straight forward solution using O(mn) space is probably a bad idea.
-//A simple improvement uses O(m + n) space, but still not the best solution.
-//Could you devise a constant space solution ?
+//a) Insert a character
+//b) Delete a character
+//c) Replace a character
 
 
 #include <iostream>
