@@ -30,13 +30,13 @@ using namespace std;
 class Solution {
 public:
 	vector<int> grayCode(int n) {
-		vector<int> ans(1 << n);
-		for (int i = 0; i < (1 << n); i++)
-			ans[i] = i ^ (i >> 1);
-		return ans;
+		vector<int> m(1 << n);
+		for (int i = 0; i < (1 << n); ++i)
+			m[i] = i ^ (i >> 1);
+		return m;
+
 	}
 };
-
 
 void main()
 {
